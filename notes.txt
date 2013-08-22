@@ -1,0 +1,15 @@
+Goal: representing and mechanizing the theory of PL's, possibly w/o
+being 
+
+Audience: (under)graduates who have taken something like 15.312
+
+
+
+background; sos, bnf, typing, preservation
+	    - we review it, but we refer to some external more
+	    complere source (kinda TAPL, but possibly open source)
+
+
+
+
+	    - we do explain 
