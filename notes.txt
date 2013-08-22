@@ -5,11 +5,65 @@ Audience: (under)graduates who have taken something like 15.312
 
 
 
-background; sos, bnf, typing, preservation
+background: sos, bnf, typing, preservation
 	    - we review it, but we refer to some external more
-	    complere source (kinda TAPL, but possibly open source)
+	    complete source (kinda TAPL, but possibly open source)
+
+	    some functional and logic programming
 
 
+provisional Content:
+
+- Zero chapter: how_to  (Abella/Beluga)
+
+- Setting the stage: recap of some MiniML (on paper)
+  	  - syntax
+	  - static semantics
+	  - dyn semantics: small step
+
+	    - type safety, type uniqueness
+
+- Formalizing the stage (encoded, an intro to the unified IL, later to
+  	                 be used w/o explanation)
+  	  - syntax
+	  - static semantics
+	  - dyn semantics: small step
+
+	  - encoding proofs (TS, TU)
+             o Proofs about closed derivations
+             o Proofs in a context
+
+- Variations on MiniML
+  	  - big step
+	    	- proof of equivalence
+                  (closed, demonstrates need for lemmas)
+
+	  - more constructs (EX)
 
 
-	    - we do explain 
+- Church-Rosser (parallel red just lambdas)
+  		??? (in lack of a better one) /bracket abstr?
+
+- Compiler correctness 
+  	   - (some SECD, bisimulation)
+  	    exhibits complete induction 
+
+[Intermezzo: intro to inductive types]
+
+- More compilation: closures
+	    - some closure thing
+	    exhibits inductive types and leads to  more sophisticated
+	      encodings possibly with subst var
+
+
+- ML with references (exhibits sophisticated relational
+            reasoning in type safety
+
+- Weak Normalization (relational/subst_var)
+
+- Coinductive: 
+  	       - Leroy's 
+	       - Milner Tofte
+	       - a bit of simulation/ctx equivalence
+
+	       
